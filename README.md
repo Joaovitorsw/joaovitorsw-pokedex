@@ -10,28 +10,26 @@
   
 </div>
 
-<p align="center">
-  <img alt="poke-app" src=".github/poke-app.png" width="350px" height="180px"/>
-</p>
-
 <p align="center"> 
   <img alt="Top Language" src="https://img.shields.io/github/languages/top/Joaovitorsw/joaovitorsw-pokedex?color=3498db&style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Joaovitorsw/joaovitorsw-pokedex?color=3498db&style=for-the-badge&label=Ultimo%20Commit">   
   <a href="https://github.com/Joaovitorsw">
     <img alt="Developed by João Vitor" src="https://img.shields.io/badge/Developer-João_Vitor-%3498db?color=3498db&style=for-the-badge&label=Desenvolvedor">
   </a>  
-  <img alt="Project License" src="https://img.shields.io/apm/l/vim-mode?style=for-the-badge&label=licen%C3%A7a"/>   
-   <img alt="Project Status" src=https://camo.githubusercontent.com/e1242aef6552b4e9b2d6764e66eb55f29758cb1e6d332b74efa89b3144339b25/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e636c75c3ad646f2d253334393864623f636f6c6f723d677265656e267374796c653d666f722d7468652d6261646765266c6162656c3d537461747573>
-
+  <img alt="Project License" src="https://img.shields.io/github/license/Joaovitorsw/joaovitorsw-pokedex?style=for-the-badge&label=licen%C3%A7a"/>   
+  <img alt="Project Status" src="https://img.shields.io/badge/status-concluido-green?style=for-the-badge&label=Status">
 </p>
+
+<h1 align="center">Joaovitorsw Pokedex</h1>
 
 <p align="center">
  <a href="#eye_speech_bubble-visualizar">Visualizar</a> •
  <a href="#information_source-sobre">Sobre</a> •
- <a href="#arrow_forward-executar">Executar</a> •
  <a href="#hammer_and_wrench-tecnologias">Tecnologias</a> • 
  <a href="#brain-conceitos-aplicados">Conceitos</a> •
  <a href="#sparkles-funcionalidades">Funcionalidades</a> •
+ <a href="#rocket-como-executar">Como executar</a> •
+ <a href="#label-palavras-chave">Palavras-chave</a> •
  <a href="#boy-autor">Autor</a> •
  <a href="#balance_scale-licença">Licença</a>
 </p>
@@ -42,83 +40,35 @@
 
 <div align="center">
 
-Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visualizar: [Clique Aqui](https://joaovitorsw-pokedex.netlify.app/)
+Preview online não informado no repositório.
 
-|                              :computer:Desktop                              |                              :iphone: Mobile                               |
-| :-------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
-|  <kbd><img src=".github/previews/desktop-preview.jpg" alt="Tablet"/></kbd>  |  <kbd><img src=".github/previews/mobile-preview.jpg" alt="Mobile"/></kbd>  |
-| <kbd><img src=".github/previews/desktop-preview-2.jpg" alt="Tablet"/></kbd> | <kbd><img src=".github/previews/mobile-preview-2.jpg" alt="Mobile"/></kbd> |
-| <kbd><img src=".github/previews/desktop-preview-3.jpg" alt="Tablet"/></kbd> | <kbd><img src=".github/previews/mobile-preview-3.jpg" alt="Mobile"/></kbd> |
+|                             :computer: Desktop                             |                             :iphone: Mobile                              |
+| :-----------------------------------------------------------------------: | :----------------------------------------------------------------------: |
+| <kbd><img src=".github/previews/desktop-preview.jpg" alt="Desktop"/></kbd> | <kbd><img src=".github/previews/mobile-preview.jpg" alt="Mobile"/></kbd> |
 
 </div>
   
 ---
+
 ## :information_source: _Sobre_
 
 <div align="center">
 
-Minha aplicação que simula uma Pokedex !
+Projeto inspirado no universo Pokémon para praticar consumo de dados, manipulação de listas, imagens e experiência de navegação.
 
 ---
 
 </div>
-
-</div>
-
-## :arrow_forward: **Executar**
-
-<div align="center">
-
-Para executar esse projeto você precisa baixar este repositório, ter o Gerenciador de Pacotes do Node ([`NPM`](https://www.npmjs.com/get-npm)) ou o Gerenciador de Pacotes YARN ([`YARN`](https://yarnpkg.com/getting-started)) instalado.
-
-Abra o prompt de comando no diretório do projeto na pasta <code>joaovitorsw-pokedex</code>, e execute os seguintes códigos:
-
-<details>
-  <summary><i>com <b>npm</b></i></summary>
-  
-  ```bash
-  # Instalar dependências
-  $ npm install ou npm i
-
-# Iniciar o servidor de desenvolvimento
-
-$ npm start
-
-````
-
-</details>
-
-<details>
-<summary><i>com <b>yarn</b></i></summary>
-
-```bash
-# Instalar dependências
-$ yarn install
-
-# Iniciar o servidor de desenvolvimento
-$ yarn start
-
-````
-
-</details>
-
-> ⚠️ O servidor de desenvolvimento será iniciado na porta: 1234 - Acesse <http://localhost:1234>
-
-</div>
-
----
 
 ## :hammer_and_wrench: _Tecnologias_
 
 <div align="center">
 
-| :globe_with_meridians: FrontEnd |
-| :-----------------------------: |
+| :globe_with_meridians: Stack |
+| :--------------------------: |
+| [JavaScript ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 | [HTML 5](https://www.w3schools.com/html/) |
-| [SCSS](https://sass-lang.com/) |
-| [JavaScript ](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-| [Parcel](https://parceljs.org/) |
-| [NodeJS](https://nodejs.org/en/) |
+| [CSS3](https://www.w3schools.com/css/) |
 
 </div>
 
@@ -128,26 +78,10 @@ $ yarn start
 
 <div align="center">
 
-|      :page_facing_up:      |
-| :------------------------: |
-|        Mobile First        |
-|        Media Query         |
-|       Atomic Commit        |
-|    Conventional Commits    |
-|          Flexbox           |
-|       API Consuming        |
-|   Hash Location Routing    |
-| Dynamic Template Rendering |
-|            SPA             |
-|        Async Await         |
-|  Destructuring Assignment  |
-|      Custom Elements       |
-|       Custom Events        |
-|         Validators         |
-|         Observable         |
-|          IndexDB           |
-|          Services          |
-|          Firebase          |
+|  :page_facing_up:  |
+| :----------------: |
+| Organização de projeto |
+| Versionamento com Git |
 
 </div>
 
@@ -157,13 +91,38 @@ $ yarn start
 
 <div align="center">
 
-|                          :page_facing_up:                           |
-| :-----------------------------------------------------------------: |
-|                           CRUD de usuário                           |
-| Armazenamento de informação de pokemons favoritos no banco de dados |
-|             Acesso aos detalhes de cada um dos Pokemons             |
-|             Filtro de pokemons por favoritos e gerações             |
-|                   Filtro de pokemons por pesquisa                   |
+|                     :page_facing_up:                      |
+| :-------------------------------------------------------: |
+| Listar e visualizar informações de Pokémon |
+| Consumir dados de API externa |
+
+</div>
+
+---
+
+## :rocket: _Como Executar_
+
+```bash
+npm install
+npm start
+```
+
+---
+
+## :label: _Palavras-chave_
+
+<div align="center">
+
+| :mag_right: Tags |
+| :---------------: |
+| `portfolio` |
+| `joaovitorsw` |
+| `pokedex` |
+| `pokemon` |
+| `api` |
+| `javascript` |
+| `css` |
+| `html` |
 
 </div>
 
@@ -193,7 +152,7 @@ Desenvolvido com ❤️ por João Vitor Pereira dos Santos 👋🏽 Meus Contato
 
 <div align="center">
 
-Copyright ©️ 2021 [João Vitor Pereira dos Santos ](https://github.com/Joaovitorsw).<br />
-This project is licensed by [MIT](./LICENSE).
+Copyright ©️ 2026 [João Vitor Pereira dos Santos](https://github.com/Joaovitorsw).<br />
+Este projeto ainda não possui uma licença formal publicada.
 
 </div>
